@@ -1,0 +1,19 @@
+{
+  "name": "compute",
+  "version": "1.0.0",
+  "description": "Logic gates emulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godcrampy/compute-js.git"
+  },
+  "author": "Sahil Bondre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godcrampy/compute-js/issues"
+  },
+  "homepage": "https://github.com/godcrampy/compute-js#readme"
+}
