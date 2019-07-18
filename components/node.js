@@ -7,7 +7,7 @@ module.exports = class Node {
         this.state = defaultState;
     }
     logState() {
-        console.log(`${this.id} state:  ${this.state?'On':'Off'}`)
+        console.log(`${this.id} state:  ${this.state?1:0}`)
     }
     getState() {
         return this.state;
