@@ -5,11 +5,11 @@ const OR = require('./components/gates/or');
 const NOT = require('./components/gates/not');
 const Light = require('./components/light');
 const NAND = require('./components/gates/nand')
-const NOR = require('./components/gates/nor')
+const XOR = require('./components/gates/xor')
 
 var switch1 = new Switch('swt1');
 var switch2 = new Switch('swt2');
-var test = new NOR('not1');
+var test = new XOR('not1');
 var light1 = new Light('lgt1');
 
 var graph = new Graph();
