@@ -4,7 +4,7 @@
   "description": "Logic gates emulation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/godcrampy/compute-js/issues"
   },
-  "homepage": "https://github.com/godcrampy/compute-js#readme"
+  "homepage": "https://github.com/godcrampy/compute-js#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
 }
